@@ -9,9 +9,10 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Image(systemName: "bgHome")
+        Image("bgHome")
             .resizable()
-            .frame(width: 300, height: 300)
+            .frame(width: 300, height: 146)
+            .opacity(0.3)
         
     }
 }
