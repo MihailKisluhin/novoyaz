@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A34BC132981A59000D24EA2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC122981A59000D24EA2 /* HomeView.swift */; };
 		8AEDBB6B297F108A00E8FFB8 /* novoyazApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */; };
 		8AEDBB6D297F108A00E8FFB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */; };
 		8AEDBB6F297F108B00E8FFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6E297F108B00E8FFB8 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A34BC122981A59000D24EA2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8AEDBB67297F108A00E8FFB8 /* novoyaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = novoyaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novoyazApp.swift; sourceTree = "<group>"; };
 		8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */,
 				8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */,
+				8A34BC122981A59000D24EA2 /* HomeView.swift */,
 				8AEDBB6E297F108B00E8FFB8 /* Assets.xcassets */,
 				8AEDBB70297F108B00E8FFB8 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A34BC132981A59000D24EA2 /* HomeView.swift in Sources */,
 				8AEDBB6D297F108A00E8FFB8 /* ContentView.swift in Sources */,
 				8AEDBB6B297F108A00E8FFB8 /* novoyazApp.swift in Sources */,
 			);
