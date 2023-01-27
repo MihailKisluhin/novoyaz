@@ -10,9 +10,16 @@ import Firebase
 
 @main
 struct novoyazApp: App {
+    @StateObject var dataManager = DataManager()
+    
+    
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VocabularyView()
+                .environmentObject(dataManager)
         }
     }
 }

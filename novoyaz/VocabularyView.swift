@@ -6,16 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct VocabularyView: View {
     @EnvironmentObject var dataManager: DataManager
     
     
     var body: some View {
-        NavigationView{
-            List(dataManager.words, id: \.id) { word in
-                Text(word.meaning)
+        NavigationView {
+            List(dataManager.words, id: \.id) { vocab in
+                Text(vocab.meaning)
             }
+            .navigationTitle("Словарь")
         }
         
     }
@@ -24,5 +26,6 @@ struct VocabularyView: View {
 struct VocabularyView_Previews: PreviewProvider {
     static var previews: some View {
         VocabularyView()
+           .environmentObject(DataManager())
     }
 }
