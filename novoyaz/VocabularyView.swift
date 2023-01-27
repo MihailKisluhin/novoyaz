@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct VocabularyView: View {
+    @EnvironmentObject var dataManager: DataManager
+    
+    
     var body: some View {
-        Text("Vocabulary")
+        NavigationView{
+            List(dataManager.words, id: \.id) { word in
+                Text(word.meaning)
+            }
+        }
+        
     }
 }
 

@@ -15,6 +15,8 @@
 		8A34BC282984791A00D24EA2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8A34BC272984791A00D24EA2 /* FirebaseFirestoreSwift */; };
 		8A34BC2A2984791A00D24EA2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8A34BC292984791A00D24EA2 /* FirebaseStorage */; };
 		8A34BC2C298479F300D24EA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A34BC2B298479F300D24EA2 /* GoogleService-Info.plist */; };
+		8A34BC2E2984816800D24EA2 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC2D2984816800D24EA2 /* Word.swift */; };
+		8A34BC302984828200D24EA2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC2F2984828200D24EA2 /* DataManager.swift */; };
 		8AEDBB6B297F108A00E8FFB8 /* novoyazApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */; };
 		8AEDBB6D297F108A00E8FFB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */; };
 		8AEDBB6F297F108B00E8FFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6E297F108B00E8FFB8 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 		8A34BC142981AA6A00D24EA2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8A34BC182981AD4A00D24EA2 /* VocabularyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyView.swift; sourceTree = "<group>"; };
 		8A34BC2B298479F300D24EA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8A34BC2D2984816800D24EA2 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		8A34BC2F2984828200D24EA2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		8AEDBB67297F108A00E8FFB8 /* novoyaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = novoyaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novoyazApp.swift; sourceTree = "<group>"; };
 		8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				8A34BC182981AD4A00D24EA2 /* VocabularyView.swift */,
 				8A34BC122981A59000D24EA2 /* HomeView.swift */,
 				8A34BC142981AA6A00D24EA2 /* ProfileView.swift */,
+				8A34BC2D2984816800D24EA2 /* Word.swift */,
+				8A34BC2F2984828200D24EA2 /* DataManager.swift */,
 				8A34BC2B298479F300D24EA2 /* GoogleService-Info.plist */,
 				8AEDBB6E297F108B00E8FFB8 /* Assets.xcassets */,
 				8AEDBB70297F108B00E8FFB8 /* Preview Content */,
@@ -170,8 +176,10 @@
 				8A34BC192981AD4A00D24EA2 /* VocabularyView.swift in Sources */,
 				8A34BC152981AA6A00D24EA2 /* ProfileView.swift in Sources */,
 				8A34BC132981A59000D24EA2 /* HomeView.swift in Sources */,
+				8A34BC302984828200D24EA2 /* DataManager.swift in Sources */,
 				8AEDBB6D297F108A00E8FFB8 /* ContentView.swift in Sources */,
 				8AEDBB6B297F108A00E8FFB8 /* novoyazApp.swift in Sources */,
+				8A34BC2E2984816800D24EA2 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
