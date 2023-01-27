@@ -14,14 +14,17 @@ struct ContentView: View {
                 HomeView()
                     .tabItem {
                         Text("Главная")
+                        Image("main")
                     }
                 VocabularyView()
                     .tabItem {
                         Text("Словарь")
+                        Image("book")
                     }
                 ProfileView()
                     .tabItem {
                         Text("Автор")
+                        Image("autor")
                     }
             }
         }

@@ -10,6 +10,8 @@
 		8A34BC132981A59000D24EA2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC122981A59000D24EA2 /* HomeView.swift */; };
 		8A34BC152981AA6A00D24EA2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC142981AA6A00D24EA2 /* ProfileView.swift */; };
 		8A34BC192981AD4A00D24EA2 /* VocabularyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC182981AD4A00D24EA2 /* VocabularyView.swift */; };
+		8A34BC1F2984442100D24EA2 /* VocabularyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC1D2984442100D24EA2 /* VocabularyModel.xcdatamodeld */; };
+		8A34BC212984452700D24EA2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC202984452700D24EA2 /* DataController.swift */; };
 		8AEDBB6B297F108A00E8FFB8 /* novoyazApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */; };
 		8AEDBB6D297F108A00E8FFB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */; };
 		8AEDBB6F297F108B00E8FFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6E297F108B00E8FFB8 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		8A34BC122981A59000D24EA2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8A34BC142981AA6A00D24EA2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8A34BC182981AD4A00D24EA2 /* VocabularyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyView.swift; sourceTree = "<group>"; };
+		8A34BC1E2984442100D24EA2 /* Vocabulary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vocabulary.xcdatamodel; sourceTree = "<group>"; };
+		8A34BC202984452700D24EA2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		8AEDBB67297F108A00E8FFB8 /* novoyaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = novoyaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novoyazApp.swift; sourceTree = "<group>"; };
 		8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A34BC1A2981B14500D24EA2 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A34BC1D2984442100D24EA2 /* VocabularyModel.xcdatamodeld */,
+				8A34BC202984452700D24EA2 /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		8AEDBB5E297F108A00E8FFB8 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +75,7 @@
 				8A34BC182981AD4A00D24EA2 /* VocabularyView.swift */,
 				8A34BC122981A59000D24EA2 /* HomeView.swift */,
 				8A34BC142981AA6A00D24EA2 /* ProfileView.swift */,
+				8A34BC1A2981B14500D24EA2 /* DataModel */,
 				8AEDBB6E297F108B00E8FFB8 /* Assets.xcassets */,
 				8AEDBB70297F108B00E8FFB8 /* Preview Content */,
 			);
@@ -146,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A34BC212984452700D24EA2 /* DataController.swift in Sources */,
 				8A34BC192981AD4A00D24EA2 /* VocabularyView.swift in Sources */,
+				8A34BC1F2984442100D24EA2 /* VocabularyModel.xcdatamodeld in Sources */,
 				8A34BC152981AA6A00D24EA2 /* ProfileView.swift in Sources */,
 				8A34BC132981A59000D24EA2 /* HomeView.swift in Sources */,
 				8AEDBB6D297F108A00E8FFB8 /* ContentView.swift in Sources */,
@@ -349,6 +365,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A34BC1D2984442100D24EA2 /* VocabularyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A34BC1E2984442100D24EA2 /* Vocabulary.xcdatamodel */,
+			);
+			currentVersion = 8A34BC1E2984442100D24EA2 /* Vocabulary.xcdatamodel */;
+			path = VocabularyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8AEDBB5F297F108A00E8FFB8 /* Project object */;
 }
