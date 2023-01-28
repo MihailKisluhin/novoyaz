@@ -9,13 +9,18 @@ import SwiftUI
 import Firebase
 
 struct VocabularyView: View {
-    @EnvironmentObject var dataManager: DataManager
-    
-    
+//    @StateObject var dataManager = DataManager()
+//    @EnvironmentObject var dataManager: DataManager
+//
+//    init() {
+//        FirebaseApp.configure()
+//    }
+//
     var body: some View {
         NavigationView {
             List(dataManager.words, id: \.id) { vocab in
                 Text(vocab.meaning)
+                Text(vocab.description)
             }
             .navigationTitle("Словарь")
         }

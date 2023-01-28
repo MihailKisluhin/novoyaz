@@ -7,6 +7,8 @@
 
 import SwiftUI
 import Firebase
+import FirebaseFirestore
+import FirebaseFirestoreSwift
 
 class  DataManager: ObservableObject {
     @Published var words: [Word] = []
@@ -16,7 +18,7 @@ class  DataManager: ObservableObject {
     }
     
     func fetchWords() {
-        words.removeAll()
+        words.removeAll() 
         let db = Firestore.firestore()
         let ref = db.collection("Words")
         ref.getDocuments { snapshot, error in
@@ -30,7 +32,7 @@ class  DataManager: ObservableObject {
                     let data = document.data()
                     
                     let id = data["id"] as? Int ?? 0
-                    let word = data["word"] as? String ?? ""
+                    let word = data["word"] as? String ?? "123"
                     let mean = data["meanind"] as? String ?? ""
                     let desc = data["description"] as? String ?? ""
                     
