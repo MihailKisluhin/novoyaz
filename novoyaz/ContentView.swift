@@ -8,7 +8,6 @@
 import SwiftUI
 import Firebase
 import FirebaseCore
-//import FirebaseFirestore
 
 struct ContentView: View {
     @StateObject var dataManager = DataManager()

@@ -31,7 +31,7 @@ class  DataManager: ObservableObject {
                     
                     let id = datas["id"] as? String ?? "123"
                     let wo = datas["word"] as? String ?? "123"
-                    let me = datas["meanind"] as? String ?? "123"
+                    let me = datas["meaning"] as? String ?? "123"
                     let de = datas["description"] as? String ?? "123"
                     
                     let vocab = Word(id: id, word: wo, meaning: me, description: de)

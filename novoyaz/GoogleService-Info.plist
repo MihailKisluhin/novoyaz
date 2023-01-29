@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>720092611612-r0qv5h6l0henuo2ur8oh2uepma2fhucf.apps.googleusercontent.com</string>
+	<string>1012648772153-bpbrocvpve95a2ik6gid96nq62salq15.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.720092611612-r0qv5h6l0henuo2ur8oh2uepma2fhucf</string>
+	<string>com.googleusercontent.apps.1012648772153-bpbrocvpve95a2ik6gid96nq62salq15</string>
 	<key>API_KEY</key>
-	<string>AIzaSyD5-8yDhd9Tl1hvHH4TBIZyyBmVsufedps</string>
+	<string>AIzaSyCDni-SgwqeyZnL-4dbKtXLiODnHJCDplw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>720092611612</string>
+	<string>1012648772153</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>MihailKisluhin.novoyaz</string>
 	<key>PROJECT_ID</key>
-	<string>vocabulary-fcfa0</string>
+	<string>novoyaz-test</string>
 	<key>STORAGE_BUCKET</key>
-	<string>vocabulary-fcfa0.appspot.com</string>
+	<string>novoyaz-test.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:720092611612:ios:0d6b78b3cb042ffdf7cbd9</string>
+	<string>1:1012648772153:ios:09e0d8882dd3666378c3e8</string>
 </dict>
 </plist>

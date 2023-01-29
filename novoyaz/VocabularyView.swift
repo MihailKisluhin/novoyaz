@@ -8,31 +8,25 @@
 import SwiftUI
 import Firebase
 import FirebaseCore
-//import FirebaseFirestore
-
 
 struct VocabularyView: View {
     
     @EnvironmentObject var dataManager: DataManager
     
     var body: some View {
-        
-//        VStack {
-//            ForEach(dataManager.words, id: \.id) { word in
-//                Text(word.meaning)
-//            }
-//        }
-        
-        
-        NavigationView {
-           List (dataManager.words, id: \.id) { word in
-                            Text(word.meaning)
-                       Text(word.description)
-                   }
-           .navigationTitle("Словарь")
+
+        NavigationStack {
+            List (dataManager.words, id: \.id) { word in
+                VStack (alignment: .leading) {
+                    Text("\(word.word) - знач. \((word.meaning))")
+                        .bold
+                    Text("Proverka")
+                    
+                }
+            }
+            .navigationTitle("Словарь")
+            .listStyle(.plain)
         }
-       
-          
     }
 }
 
