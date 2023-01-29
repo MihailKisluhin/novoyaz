@@ -6,8 +6,13 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseCore
+//import FirebaseFirestore
 
 struct ContentView: View {
+    @StateObject var dataManager = DataManager()
+    
     var body: some View {
         VStack {
             TabView {
@@ -17,6 +22,7 @@ struct ContentView: View {
                         Image("main")
                     }
                 VocabularyView()
+                    .environmentObject(dataManager)
                     .tabItem {
                         Text("Словарь")
                         Image("book")

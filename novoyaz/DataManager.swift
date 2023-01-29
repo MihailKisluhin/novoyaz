@@ -1,14 +1,12 @@
-//
+
 //  DataManager.swift
 //  novoyaz
-//
 //  Created by Kisluhin Mihail on 28.01.23.
-//
 
 import SwiftUI
 import Firebase
-import FirebaseFirestore
-import FirebaseFirestoreSwift
+import FirebaseCore
+//import FirebaseFirestore
 
 class  DataManager: ObservableObject {
     @Published var words: [Word] = []
@@ -18,7 +16,7 @@ class  DataManager: ObservableObject {
     }
     
     func fetchWords() {
-        words.removeAll() 
+        words.removeAll()
         let db = Firestore.firestore()
         let ref = db.collection("Words")
         ref.getDocuments { snapshot, error in
@@ -29,14 +27,14 @@ class  DataManager: ObservableObject {
             
             if let snapshot = snapshot {
                 for document in snapshot.documents {
-                    let data = document.data()
+                    let datas = document.data()
                     
-                    let id = data["id"] as? Int ?? 0
-                    let word = data["word"] as? String ?? "123"
-                    let mean = data["meanind"] as? String ?? ""
-                    let desc = data["description"] as? String ?? ""
+                    let id = datas["id"] as? String ?? "123"
+                    let wo = datas["word"] as? String ?? "123"
+                    let me = datas["meanind"] as? String ?? "123"
+                    let de = datas["description"] as? String ?? "123"
                     
-                    let vocab = Word(id: id, word: word, meaning: mean, description: desc)
+                    let vocab = Word(id: id, word: wo, meaning: me, description: de)
                     self.words.append(vocab)
                 }
             }

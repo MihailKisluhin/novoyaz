@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import SwiftUI
 
-struct Word: Identifiable, Codable {
+struct Word: Identifiable {
     var id: String
     var word: String
     var meaning: String
