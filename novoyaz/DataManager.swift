@@ -5,7 +5,7 @@
 
 import SwiftUI
 import Firebase
-import FirebaseCore
+//import FirebaseCore
 //import FirebaseFirestore
 
 class  DataManager: ObservableObject {

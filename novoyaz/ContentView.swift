@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Firebase
-import FirebaseCore
+//import FirebaseCore
 
 struct ContentView: View {
     @StateObject var dataManager = DataManager()
@@ -32,6 +32,7 @@ struct ContentView: View {
                         Image("autor")
                     }
             }
+            .tabViewStyle(.automatic)
         }
         .padding()
     }

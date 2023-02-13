@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Firebase
-import FirebaseCore
+//import FirebaseCore
 
 struct VocabularyView: View {
     
@@ -18,11 +18,18 @@ struct VocabularyView: View {
         NavigationStack {
             List (dataManager.words, id: \.id) { word in
                 VStack (alignment: .leading) {
-                    Text("\(word.word) - знач. \((word.meaning))")
-                        .bold
-                    Text("Proverka")
+                    HStack {
+                        Text(word.word)
+                            .bold()
+                        Text("-")
+                        Text(word.meaning)
+                        Spacer()
+                    }
+                    Text(word.description)
+                        .font(.caption)
                     
                 }
+                .padding(10)
             }
             .navigationTitle("Словарь")
             .listStyle(.plain)

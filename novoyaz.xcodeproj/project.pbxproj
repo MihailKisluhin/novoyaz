@@ -19,6 +19,7 @@
 		8A34BC3E29871EA200D24EA2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A34BC3D29871EA200D24EA2 /* FirebaseFirestore */; };
 		8A34BC4029871EA200D24EA2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8A34BC3F29871EA200D24EA2 /* FirebaseFirestoreSwift */; };
 		8A34BC4229871EA200D24EA2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8A34BC4129871EA200D24EA2 /* FirebaseStorage */; };
+		8A34BC44298828B000D24EA2 /* WordDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A34BC43298828B000D24EA2 /* WordDetailsView.swift */; };
 		8AEDBB6B297F108A00E8FFB8 /* novoyazApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */; };
 		8AEDBB6D297F108A00E8FFB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */; };
 		8AEDBB6F297F108B00E8FFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDBB6E297F108B00E8FFB8 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		8A34BC2F2984828200D24EA2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		8A34BC312985470D00D24EA2 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		8A34BC3429871B4000D24EA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8A34BC43298828B000D24EA2 /* WordDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailsView.swift; sourceTree = "<group>"; };
 		8AEDBB67297F108A00E8FFB8 /* novoyaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = novoyaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEDBB6A297F108A00E8FFB8 /* novoyazApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novoyazApp.swift; sourceTree = "<group>"; };
 		8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				8AEDBB6C297F108A00E8FFB8 /* ContentView.swift */,
 				8A34BC182981AD4A00D24EA2 /* VocabularyView.swift */,
 				8A34BC312985470D00D24EA2 /* Word.swift */,
+				8A34BC43298828B000D24EA2 /* WordDetailsView.swift */,
 				8A34BC122981A59000D24EA2 /* HomeView.swift */,
 				8A34BC2F2984828200D24EA2 /* DataManager.swift */,
 				8A34BC142981AA6A00D24EA2 /* ProfileView.swift */,
@@ -184,6 +187,7 @@
 				8A34BC152981AA6A00D24EA2 /* ProfileView.swift in Sources */,
 				8A34BC132981A59000D24EA2 /* HomeView.swift in Sources */,
 				8A34BC302984828200D24EA2 /* DataManager.swift in Sources */,
+				8A34BC44298828B000D24EA2 /* WordDetailsView.swift in Sources */,
 				8AEDBB6D297F108A00E8FFB8 /* ContentView.swift in Sources */,
 				8AEDBB6B297F108A00E8FFB8 /* novoyazApp.swift in Sources */,
 			);
